@@ -22,6 +22,7 @@ Most modern linux systems should work, I think.
    ```sh
    sudo apt update
    sudo apt install -y clang llvm libbpf-dev iproute2
+   sudo apt install -y linux-headers-$(uname -r)
    ```
 
 2. **Compile the eBPF Program**

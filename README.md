@@ -21,7 +21,7 @@ Most modern linux systems should work, I think.
 1. **Install Required Dependencies**
    ```sh
    sudo apt update
-   sudo apt install -y clang llvm libbpf-dev iproute2
+   sudo apt install -y clang llvm libbpf-dev iproute2 linux-libc-dev
    sudo apt install -y linux-headers-$(uname -r)
    ```
 

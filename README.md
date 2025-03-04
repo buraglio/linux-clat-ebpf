@@ -12,6 +12,7 @@ The following is required:
 - Clang and LLVM installed for compiling eBPF programs.
 - `iproute2` package installed for managing XDP programs.
 - `libbpf` development libraries installed.
+- A PLAT (a NAT64 system upstream)
 
 Most modern linux systems should work, I think.
 

@@ -2,8 +2,9 @@
 #include <linux/if_ether.h>
 #include <linux/ip.h>
 #include <linux/ipv6.h>
-#include <linux/in.h>
 #include <bpf/bpf_helpers.h>
+#include <arpa/inet.h>
+
 
 #define NAT64_PREFIX 0x0064FF9B // 64:ff9b::/96 well-known prefix per RFC 8215, should probably be configurable eventually
 
